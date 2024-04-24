@@ -53,7 +53,7 @@ const sendMail = async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "sharadkalavadia@gmail.com",
+    to: "khannarealestate13@gmail.com",
     subject: sub,
     html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${msg}</p><p>Location: ${location}</p><p>Number: ${number}</p>`,
     
